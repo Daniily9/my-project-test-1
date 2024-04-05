@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Тур в Францію</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Тур в Францію</h1>
+    <p>Місто: <span id="city">Париж</span></p>
+    <p>Опис туру: Відвідайте романтичний Париж, відчуйте атмосферу міста любові.</p>
+    <p>Ціна: </p>
+    <p>Кількість людей: <span id="peopleCount">2</span></p>
+    <p>Вік людей: <span id="peopleAge">25-35</span></p>
+    <div id="tourImages">
+        <!-- Тут будуть зображення туру -->
+    </div>
+    <button onclick="bookTour()">Забронювати тур</button>
+</body>
+</html>
